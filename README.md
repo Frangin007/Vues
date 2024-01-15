@@ -1,5 +1,3 @@
-# takafa_admin
-
 ## Project setup
 ```
 npm install
