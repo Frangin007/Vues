@@ -1,0 +1,71 @@
+
+%btn-base {
+    font-family: inherit;
+    padding: 5px 10px;
+    color: $color-white;
+    background-color: $color-primary;
+    transition: background-color .3s ease-out;
+}
+
+
+%btn-primary {
+    @extend %btn-base;
+    border-radius : $f-radius-5;
+    padding: 10px;
+    font-size: $f-normal;
+    cursor: pointer;
+    &:hover {
+        background-color: $color-secondary;
+    }
+    &:disabled {
+        background-color: $color-disabled;
+        cursor: none;
+    }
+}
+
+%btn-file {
+    @extend %btn-base;
+    background-color: $color-gray-3;
+    color : $color-dark;
+    border-radius : $f-radius-5;
+    font-size: $f-normal;
+    cursor: pointer;
+    border : 2px dashed $color-primary;
+
+    &:hover {
+        color : $color-white;
+        border-style : solid;
+        border-color : $color-secondary;
+        background-color: $color-secondary;
+    }
+
+
+}
+
+%btn-program {
+    @extend %btn-base;
+    padding: 7px 10px;
+    border-radius: 50px;
+
+}
+
+%btn-drop {
+    @include btn-drop;
+    
+}
+
+%btn-pg {
+    border: none;
+    //border-radius: 2px;
+    //height: 10px;
+    //padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //font-size: $f-normal;
+    //background-color: $color-primary;
+    font-weight: bold;
+    color: $color-white;
+    cursor: pointer;
+    transition : background-color .1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}

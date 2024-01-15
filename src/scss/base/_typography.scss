@@ -1,0 +1,50 @@
+// _typography.scss
+// 
+// Template's basic typography configurations.
+// 
+
+body {
+    font-family: $f-family;
+    //letter-spacing: -.3px;
+}
+
+$headers-font-sizes: ( "1": 48px, "2": 36px, "3": 30px, "4": 24px, "5": 20px, "6": 16px ) ;
+
+@each $index, $font-size in $headers-font-sizes {
+	h#{$index},
+	.h#{$index} {
+		font-size: $font-size;
+		font-weight: $fw-bold;
+		color: $color-gray-12;
+        margin : 0;
+        padding: 0;
+        box-sizing : border-box;
+        //text-align: center;
+	}
+	// Output Ex :
+	// 	h1,
+	// 	.h1 {
+	// 		font-size: 48px;
+	// 		font-weight: $fw-bold;
+	// 		color: $color-gray-12;
+	// 	}
+}
+$body-font-sizes : ( "lg": 16px, "md": 14px, "sm": 12px);
+@each $index, $font-size in $body-font-sizes {
+	
+	.bd-#{$index} {
+		font-size: $font-size;
+		//color: ;
+		//color: $color-gray-12;
+        margin : 0;
+        padding: 0;
+        box-sizing : border-box;
+		&--bold {
+			font-weight: $fw-bold;
+		}
+	}
+	
+}
+p {
+	font-size: 14px;
+}

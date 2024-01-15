@@ -1,0 +1,45 @@
+// app.scss
+// 
+// Template's man stylesheet.
+// 
+
+// Base
+@import "./base/_variables" ;
+@import "./base/_utilities" ;
+@import "./base/_reset" ;
+@import "./base/_typography" ;
+// Utils
+@import "./utils/_mixins" ;
+@import "./utils/_container" ;
+
+// Layouts
+//@import "./layouts/default" ;
+@import "./layouts/dashboard" ;
+//@import "./layouts/dashboard-rtl" ;
+// Layouts
+
+// Components
+//@import "./components/_avatar" ;
+//@import "./components/_badge" ;
+@import "./components/_button" ;
+@import "./components/_inputs" ;
+@import "./components/_table" ;
+@import "./components/_modal" ;
+//@import "./components/_progress" ;
+//@import "./components/_settings-drawer" ;
+//@import "./components/_space" ;
+@import "./components/_header" ;
+@import "./components/_sidebar" ;
+
+// / Components
+
+// Form
+//@import "./form/_input" ;
+//@import "./form/_checkbox" ;
+// / Form
+
+// Pages
+@import "./pages/_clients" ;
+@import "./pages/_academy" ;
+@import "./pages/_login" ;
+// Pages

@@ -1,0 +1,99 @@
+@import url('https://fonts.cdnfonts.com/css/museo-sans-cyrl');
+// black-color : hex(000000) hsl(0, 0, 0) rgb(0, 0, 0)
+// carolina-blue-color : hex(17A8E7) hsl(198, 82, 50) rgb(23, 168, 231)
+// carolina-blue-color-2 : hex(1E9ED9) hsl(199, 76, 48) rgb(30, 158, 217)
+// blue-ncs-color : hex(0784B5) hsl(197, 93, 37) rgb(7, 132, 181)
+// blue-light-color : hex(E3F2FD) hsl(205, 87, 94) rgb(227, 242, 253)
+// blue-green-color : hex(1565C0) hsl(212, 80, 42) rgb(21, 101, 192)
+//blue-colbat-color : hex(0D47A1) hsl(216, 85, 34) rgb(13, 71, 161)
+// Green : #32ff7e
+// Base Colors
+$color-primary: #1E9ED9;
+$color-primary-2: #17A8E7;
+$color-secondary: #0D47A1;
+$color-success: #32ff7e;
+$color-success-shade:rgba(71, 245, 138, 0.281);
+//$color-success-shade-2:rgba(71, 245, 138, 1);
+$color-success-shade-2 : #89f0af;
+$color-warning: #FADB14;
+$color-danger: #F5222D;
+$color-danger-2: #ff4d6d;
+$color-danger-shade: #f12f3956;
+$color-dark: #141414;
+$color-overlay : #32303193;
+$color-white: #FFFFFF;
+$color-hover : #dbe7ec6b;
+$color-disabled : #17a9e780;
+$loading-color : rgba(23, 168, 231, .5);
+$loading-color-shade : rgba(180, 202, 211, 0.5);
+$status-load : rgba(180, 202, 211, 0.979);
+$color-basic-package  : #002ca6;
+$color-pro-package : #006631;
+$color-premium-package : #996b00;
+
+// / Base Colors
+$color-flutter: #FFD369;
+$color-dunya: #187498;
+$color-complete : #1E5128;
+$color-active : #1E5128;
+$color-expire : #010038;
+$color-view : #4E9F3D;
+$color-stand : rgb(255, 81, 0);
+$color-stand-2 : #00b4d8;
+// Neutral Colors
+$color-gray-1: #FFFFFF;
+$color-gray-2: #FAFAFA;
+$color-gray-3: #F5F5F5;
+$color-gray-4: #F0F0F0;
+$color-gray-5: #D9D9D9;
+$color-gray-6: #BFBFBF;
+$color-gray-7: #8C8C8C;
+$color-gray-8: #595959;
+$color-gray-9: #434343;
+$color-gray-10: #262626;
+$color-gray-11: #1F1F1F;
+$color-gray-12: #141414;
+$color-muted: $color-gray-7;
+// / Neutral Colors
+//Shadow
+
+$box-shadow-1 : rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+$box-shadow-2 : rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+$box-shadow-3 :  rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$box-shadow-normal : rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+// Font Weights
+$fw-regular: 400;
+$fw-minibold : 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+// / Font Weights
+
+// Font Family
+
+//$f-family: "open sans", Helvetica, Arial, sans-serif;
+$f-family: 'Museo Sans Cyrl', sans-serif;;
+//$f-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+// / Font Family
+
+// Responsive Breakpoints
+$xs: 480px ;
+$sm: 576px ;
+$md: 768px ;
+$lg: 992px ;
+$xl: 1200px ;
+$xxl: 1600px ;
+// / Responsive Breakpoints
+
+//Radius
+
+$f-radius-5 : 5px;
+$f-radius-10 : 10px;
+
+// font-size
+$f-small : 13px;
+$fx-small : 12px;
+$fxs-small : 10px;
+$f-normal : 14px;
+$f-medium : 16px;
+$f-large : 18px;
+$f-xlarge : 20px;
